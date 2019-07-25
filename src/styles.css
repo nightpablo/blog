@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+.avatar_edit{
+	width: 80px;
+	margin-bottom: 10px; 
+}
+
+.avatar_mask{
+	width: 40px;
+	height: 40px;
+	border-radius: 900px;
+	overflow: hidden; 
+}
+.avatar_mask img{
+	height: 40px;	
+}
+.card-header a{
+	color: #444; 
+}
+.post-image{
+	height:100%; 
+	width: 200px;
+	overflow:hidden;
+}
+footer{
+	margin-top: 50;
+	color: lightgray;
+}
+.title_edit{
+	color: darkblue;
+	font-size: 36px;
+}
+.image_edit{
+	height: 20%;
+	width:	150px;
+	overflow: hidden;
+}
+.avatar_mask_profile{
+	width: 90px;
+	height: 90px;
+	border-radius: 900px;
+	overflow: hidden; 
+}
+.avatar_mask_profile img{
+	height: 90px;
+}
+.byCategoria{
+	font-style: italic;
+	font-size: 15px;
+	align:center;		
+}
+.byUser{
+	align:center;
+	font-style: italic;
+	font-size: 15px;
+	border: 0px solid black;
+	text-align: right;	 	
+}
+.footer-table{
+	width: 100%;
+	border: 0px solid black;
+}

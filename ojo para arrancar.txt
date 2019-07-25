@@ -1,0 +1,4 @@
+ng serve --host 0.0.0.0 --disableHostCheck
+
+
+con esto se evita que bya.test:4200 deje de funcionar
