@@ -20,7 +20,7 @@ import { PostDetailComponent } from './components/post-detail/post-detail.compon
 import { PostEditComponent } from './components/post-edit/post-edit.component';
 import { CategoryDetailComponent } from './components/category-detail/category-detail.component';
 
-import { IdentityGuard } from './services/Identity.guard';
+import { IdentityGuard } from './services/identity.guard';
 import { UserService} from './services/user.service';
 import { ProfileComponent } from './components/profile/profile.component';
 import { PostListComponent } from './components/post-list/post-list.component';

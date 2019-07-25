@@ -15,7 +15,7 @@ import { PostDetailComponent } from './components/post-detail/post-detail.compon
 import { PostEditComponent } from './components/post-edit/post-edit.component';
 import { CategoryDetailComponent } from './components/category-detail/category-detail.component';
 import { ProfileComponent } from './components/profile/profile.component';
-import { IdentityGuard } from './services/Identity.guard';
+import { IdentityGuard } from './services/identity.guard';
 
 // Definir las rutas
 // LA ULTIMA ES LA DE ERROR
