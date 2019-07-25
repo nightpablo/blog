@@ -5,7 +5,7 @@ import { CategoryService } from '../../services/category.service';
 import { Post } from '../../models/post';
 import { global } from '../../services/global';
 import { PostService } from '../../services/post.service';
- 
+
 
 @Component({
   selector: 'app-post-new',
@@ -20,6 +20,7 @@ export class PostNewComponent implements OnInit {
 	public status: string;
 	public post: Post;
   public categories;
+  public is_edit;
 	public froala_options: Object={
 	    charCounterCount: true,
       language: 'es',
@@ -64,6 +65,7 @@ export class PostNewComponent implements OnInit {
   	this.page_title = 'Crear una entrada';
   	this.identity = this._userService.getIdentity();
   	this.token = this._userService.getToken();
+    this.is_edit=false;
   }
 
   ngOnInit() {
