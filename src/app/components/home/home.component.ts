@@ -28,7 +28,6 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('por aca');
   	this.getPosts();
   }
   

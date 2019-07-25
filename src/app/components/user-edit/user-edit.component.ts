@@ -48,7 +48,7 @@ export class UserEditComponent implements OnInit {
 	      attachPinBtn: 'Attach Files...',
 	      afterUploadMsg_success: 'Successfully Uploaded !',
 	      afterUploadMsg_error: 'Upload Failed !'
-	    },
+	    }
 	};
 
   constructor(
